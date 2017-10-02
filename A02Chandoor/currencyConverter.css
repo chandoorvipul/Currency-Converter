@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #7AE83F;
+    }
+#vi{
+color:  #E61818;
+    }
+
+li {
+    float: left;
+}
+
+   
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #62D165;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+body { 
+    background: url("cc.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+  }
+  label{
+color:white;  
+}
+.down{
+    position: relative;
+    top:50%;
+    padding-top: 100px;
+}

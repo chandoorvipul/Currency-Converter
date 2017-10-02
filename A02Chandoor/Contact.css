@@ -1,0 +1,46 @@
+.contact{
+    margin-top: 100px;
+    margin-left: 275px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7AE83F;
+    
+}
+body{
+
+    background-image: url("contact.jpg");
+    text-align: center;
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+.contact{
+    text-align: center;
+    padding-left: 200px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #151313;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F4F1F8;
+}
+.link{
+    float: right;        
+}
+#git{
+    border-radius: 50%; 
+}

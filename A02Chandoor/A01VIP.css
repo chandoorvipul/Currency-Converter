@@ -1,0 +1,52 @@
+.info {
+   text-decoration: underline;
+   text-align: center;
+	color: #E80000;
+	font-size: 200%;
+	}
+.bdy {
+background-image: url("123.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+color: #010101;
+font-size: 120%;
+}
+.heading {
+	font-style:  italic;
+	color : #001DEC;
+}
+
+.name {
+	color:#EB0909;
+	text-decoration: underline;
+}
+.img-circle{
+	border-radius: 50%;
+	float:right;
+}
+.video{
+	float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #7AE83F;
+	}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #151313;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #62D165;
+}

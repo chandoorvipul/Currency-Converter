@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Currency Converter
+        </title>
+        <link rel="stylesheet" type="text/css" href="currencyConverter.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    </head>
+    <body> 
+        <div class="container-fluid">
+                <div class="col-md-12">
+        <ul>
+            <li><a class="active" href="A01VIP.html">Home</a></li>
+            <li><a href="CurrencyConverter.html">Currency Converter</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul></div>
+        <div class="col-md-offset-5">
+        <h1> Currency Converter</h1> </div>
+       
+<div class="col-md-12">
+<div class="col-md-6">
+<label class="col-md-2">From:</label>  
+<select class="col-md-3" name="from" id="input">
+<option value="0">SELECT</option>
+<option value="1">USD</option>
+<option value="2">INR</option>
+<option value="3">GBP</option>
+<option value="4">AUD</option>
+</select>
+<label class="col-md-2">EnterValue:</label>
+<input class="col-md-4" type="number" name="from" id="val">
+</div>
+<div class="col-md-6">
+<label class="col-md-1"> To:</label>
+<select class="col-md-3" name="to" id="output">
+  
+        <option value="0">SELECT</option>
+        <option value="1">USD</option>
+        <option value="2">INR</option>
+        <option value="3">GBP</option>
+        <option value="4">AUD</option>
+        </select>
+      
+    </div></div>
+<div class="col-md-12 down">
+<input type="button" value="Convert" onclick="calculate()" class="col-md-1 col-md-offset-5 ">
+</div>
+<div class="col-md-12">
+<label class="col-md-1 col-md-offset-4">Calculated value</label>
+    <input class="col-md-3 " type="number" name="to" id="val1">
+
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="calculate.js"></script>
+    </body>
+
+</html>
